@@ -1,0 +1,24 @@
+.itemTitle
+{
+    text-align: left;
+    font-size: large;
+    width: fit-content;
+    color:#303c6c;;
+    margin:0px;
+    
+    padding-left:10px;
+    padding-top:10px;
+    border-top-left-radius: 8px;
+    border-top-Right-radius: 8px;
+}
+
+.singleRefundRequest {
+    display: flex;
+  }
+  .singleRefundRequest:hover {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #000000;
+    color: #000000;
+  border-radius: 8px;
+  }

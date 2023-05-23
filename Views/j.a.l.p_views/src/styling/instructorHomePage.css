@@ -1,0 +1,8 @@
+.Instructorfooter{
+    align-self: flex-end;
+    position: fixed; 
+    bottom:0%;
+}
+.navBar{
+    height: 5vh;
+}

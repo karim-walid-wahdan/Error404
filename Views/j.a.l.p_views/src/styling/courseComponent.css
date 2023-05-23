@@ -1,0 +1,26 @@
+.courseComponent{
+  padding: 20px;
+  
+  background-color: white; 
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #f4976c;
+}
+.UploadCourseDescriptionP {
+  padding-left: 10px;
+  padding-top: 10px;
+  
+}
+.viewMode { 
+  width: fit-content;
+  font-size: large;
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+.viewModep {
+  width: fit-content;
+  font-size: large;
+  padding-left: 240px;
+  padding-bottom: 20px;
+}
+
