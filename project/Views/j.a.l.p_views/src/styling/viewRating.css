@@ -1,0 +1,103 @@
+/*general*/
+.parent {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  border-radius: 8px;
+}
+.parent:hover {
+  box-shadow: 0 -16px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.overAllRating {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.ReviewsSection {
+  width: 60%;
+  margin-right: 10px;
+}
+.starArea {
+  width: 100%;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.percentageArea {
+  width: 100%;
+}
+.ratingP {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ratingStars {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.percentage {
+  display: flex;
+  width: 100%;
+}
+.percentageBackgroundDiv {
+  width: 40%;
+  height: 20px;
+  background-color: #e8e8e8;
+  border-radius: 20px;
+}
+.percentageLabel {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20%;
+  height: 100px;
+  height: inherit;
+}
+.reviewP {
+  height: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: large;
+}
+.reviews {
+  box-shadow: 0 -16px -16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 95%;
+  max-height: 80%;
+  font-size: xx-small;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+.errorMessage {
+  width: fit-content;
+  margin: auto;
+}
+.singleReview {
+  display: flex;
+}
+.singleReview:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24),
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #303c6c;
+  color: white;
+border-radius: 8px;
+}
+.reviewBoby {
+  width: 60%;
+}
+.ratingReviewBody {
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,27 @@
+.Drawer
+{
+    border-radius: 8px;
+    box-shadow: 0 -16px -16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    min-height: 100px;
+    max-width: 97vw;
+    max-height: 400px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:1.5vw ;
+    margin-right:1.5vw;
+    background-color: #303c6c;
+   
+}
+.Error
+{
+    text-align: center;
+    background-color: #303c6c;
+    color: white;
+    margin: auto;
+    max-width: 97vw;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+.coursesForDiscount
+{
+    display: flex;
+    justify-content: space-between;
+}
+.box { 
+    width: 60vh; 
+    height: 100%; 
+    color: white; 
+
+} 

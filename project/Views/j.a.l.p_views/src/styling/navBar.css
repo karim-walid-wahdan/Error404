@@ -1,0 +1,22 @@
+.section{
+    padding: 8cm;
+  }
+  
+  .viewCourses{
+    background: #f4976c;
+    text-emphasis-color:#303c6c ;
+  }
+  
+  
+  img {
+    width: 80px;
+    height: 80px;
+  }
+  img:hover{
+    cursor:grab;
+  }
+  .login{
+    color: #f4976c;
+    align-items: center;
+    vertical-align: middle;
+  }
